@@ -1,0 +1,5 @@
+# Örnek script'lerin ürettiği dosyalar
+demo_veri/
+gun_sonu_raporu.txt
+__pycache__/
+.DS_Store
