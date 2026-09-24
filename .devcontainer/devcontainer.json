@@ -1,12 +1,12 @@
-// Python ile Hızlı Kodlama — Codespaces ortam ayarı
-// Codespace açıldığında Python 3.14 ve VS Code Python eklentisi hazır gelir.
+// Python ile Hizli Kodlama - Codespaces ortam ayari
+// Codespace acildiginda Python 3.14 ve VS Code Python eklentisi hazir gelir.
 {
-  "name": "Python ile Hızlı Kodlama",
+  "name": "Python ile Hizli Kodlama",
 
-  // Microsoft'un resmi Python 3.14 imajı (python, pip ve git kurulu gelir)
+  // Microsoft'un resmi Python 3.14 imaji (python, pip ve git kurulu gelir)
   "image": "mcr.microsoft.com/devcontainers/python:2-3.14",
 
-  // 2 çekirdekli makine: eğitim için yeterli, ücretsiz kotayı en az harcayan seçenek
+  // 2 cekirdekli makine: egitim icin yeterli, ucretsiz kotayi en az harcayan secenek
   "hostRequirements": {
     "cpus": 2
   },
@@ -19,15 +19,15 @@
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python",
 
-        // Run düğmesi dosyayı kendi klasöründe çalıştırsın;
-        // böylece "satislar.csv" gibi göreli dosya yolları her örnekte çalışır
+        // Run dugmesi dosyayi kendi klasorunde calistirsin;
+        // boylece "satislar.csv" gibi goreli dosya yollari her ornekte calisir
         "python.terminal.executeInFileDir": true,
 
-        // Kaydetmeyi unutan olmasın
+        // Kaydetmeyi unutan olmasin
         "files.autoSave": "afterDelay",
 
-        // Alıştırmalarda yapay zeka otomatik tamamlaması cevabı vermesin
-        // (Yapay zeka bölümünde bu ayar birlikte açılacak)
+        // Alistirmalarda yapay zeka otomatik tamamlamasi cevabi vermesin
+        // (Yapay zeka bolumunde bu ayar birlikte acilacak)
         "editor.inlineSuggest.enabled": false,
 
         "editor.fontSize": 15,

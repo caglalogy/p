@@ -1,31 +1,31 @@
 """
 03_iki_calisma_yolu.py
-Amaç     : Python kodunu çalıştırmanın ikinci yolunu, yani script dosyasını
-           göstermek. Aynı satırlar REPL'de tek tek de denenebilir.
-Çalıştır : python 03_iki_calisma_yolu.py
-Çıktı    : Kahve Durağı açıldı!
+Amac     : Python kodunu calistirmanin ikinci yolunu, yani script dosyasini
+           gostermek. Ayni satirlar REPL'de tek tek de denenebilir.
+Calistir : python 03_iki_calisma_yolu.py
+Cikti    : Kahve Duragi acildi!
            4
-           Bugün 3 şube hizmet veriyor.
+           Bugun 3 sube hizmet veriyor.
 """
 
-print("Kahve Durağı açıldı!")
+print("Kahve Duragi acildi!")
 print(2 + 2)
-print("Bugün", 3, "şube hizmet veriyor.")
+print("Bugun", 3, "sube hizmet veriyor.")
 
-# ── AYNI SATIRLAR REPL'DE ───────────────────────────────────────────
-# Terminale sadece python yazıp Enter'a basarsanız REPL açılır.
-# Satırın başındaki >>> işareti "komutunu bekliyorum" demektir:
+# -- AYNI SATIRLAR REPL'DE -------------------------------------------
+# Terminale sadece python yazip Enter'a basarsaniz REPL acilir.
+# Satirin basindaki >>> isareti "komutunu bekliyorum" demektir:
 #
-#     >>> print("Kahve Durağı açıldı!")
-#     Kahve Durağı açıldı!
+#     >>> print("Kahve Duragi acildi!")
+#     Kahve Duragi acildi!
 #     >>> 2 + 2
 #     4
 #     >>> exit()
 #
-# REPL'de print yazmadan 2 + 2 yazmak da sonucu gösterir.
-# Script dosyasında ise sonucu görmek için print gerekir.
+# REPL'de print yazmadan 2 + 2 yazmak da sonucu gosterir.
+# Script dosyasinda ise sonucu gormek icin print gerekir.
 
-# ── DEĞİŞTİR VE DENE (Ders 2'den sonra) ─────────────────────────────
-# 1) print(2 + 2) satırını sadece 2 + 2 yapın ve dosyayı çalıştırın.
-#    4 neden ekranda görünmedi? Aynı şeyi REPL'de deneyin.
-# 2) Şube sayısını 3'ten 5'e değiştirin.
+# -- DEGISTIR VE DENE (Ders 2'den sonra) -----------------------------
+# 1) print(2 + 2) satirini sadece 2 + 2 yapin ve dosyayi calistirin.
+#    4 neden ekranda gorunmedi? Ayni seyi REPL'de deneyin.
+# 2) Sube sayisini 3'ten 5'e degistirin.
